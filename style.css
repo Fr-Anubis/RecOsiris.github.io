@@ -258,4 +258,67 @@ a {
 
 }
 
-/* Animation CSS */
+/* Media queries CSS */
+
+/* Styles par défaut */
+
+/* Media Query pour les écrans jusqu'à 767 pixels de largeur (par exemple, smartphones) */
+@media screen and (max-width: 767px) {
+  .header {
+    height: 60px;
+    /* Ajustez la hauteur du header pour les écrans plus petits */
+  }
+
+  .navbar {
+    gap: 20px;
+    /* Ajustez l'espacement entre les éléments de la navbar pour les écrans plus petits */
+  }
+
+  .titre1 {
+    font-size: 3rem;
+    /* Ajustez la taille de la police pour les écrans plus petits */
+  }
+
+  .description0 {
+    margin-left: 2rem;
+    /* Ajustez la marge pour les écrans plus petits */
+  }
+
+  .photo1a {
+    height: 15rem;
+    /* Ajustez la hauteur de l'image pour les écrans plus petits */
+  }
+
+  .card-objectif {
+    height: 35rem;
+    width: 25rem;
+    /* Ajustez la taille des cartes objectif pour les écrans plus petits */
+  }
+
+  .voir {
+    margin-top: 2rem;
+    /* Ajustez la marge pour le bouton "Voir" pour les écrans plus petits */
+  }
+
+  .card {
+    height: 35rem;
+    width: 25rem;
+    /* Ajustez la taille des cartes pour les écrans plus petits */
+  }
+
+  .photo-card {
+    height: 10rem;
+    width: 23.3rem;
+    /* Ajustez la taille de l'image pour les écrans plus petits */
+  }
+
+  .titre2 {
+    font-size: 24px;
+    /* Ajustez la taille de la police pour les écrans plus petits */
+  }
+
+  .description1 {
+    font-size: 12px;
+    /* Ajustez la taille de la police pour les écrans plus petits */
+  }
+}
