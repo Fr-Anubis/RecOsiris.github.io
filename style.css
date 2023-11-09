@@ -289,12 +289,12 @@ a {
   }
 
   .photo1a {
-    height: 15rem;
+    height: 12rem;
     /* Ajustez la hauteur de l'image pour les écrans plus petits */
   }
 
   .but-titre{
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .card-objectif {
