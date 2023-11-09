@@ -268,19 +268,23 @@ a {
     height: 60px;
     /* Ajustez la hauteur du header pour les écrans plus petits */
   }
-
+  
   .navbar {
-    gap: 20px;
+    font-size: 4px;
+    gap: 1px;
     /* Ajustez l'espacement entre les éléments de la navbar pour les écrans plus petits */
   }
 
   .titre1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     /* Ajustez la taille de la police pour les écrans plus petits */
   }
 
   .description0 {
-    margin-left: 2rem;
+    margin-left: 1rem;
+    min-width: 100%;
+    text-align: center;
+    padding: 1rem 1rem;
     /* Ajustez la marge pour les écrans plus petits */
   }
 
@@ -289,9 +293,14 @@ a {
     /* Ajustez la hauteur de l'image pour les écrans plus petits */
   }
 
+  .but-titre{
+    font-size: 3rem;
+  }
+
   .card-objectif {
     height: 35rem;
     width: 25rem;
+    font-size: 1.2rem;
     /* Ajustez la taille des cartes objectif pour les écrans plus petits */
   }
 
