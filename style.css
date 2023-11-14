@@ -34,7 +34,7 @@ body {
 
 .navbar {
   display: flex;
-  list-style: none;
+  /* list-style: none; */
   gap: 50px;
 }
 
@@ -289,7 +289,7 @@ a {
   }
 
   .photo1a {
-    height: 12rem;
+    height: 11rem;
     /* Ajustez la hauteur de l'image pour les écrans plus petits */
   }
 
